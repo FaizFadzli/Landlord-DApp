@@ -29,20 +29,20 @@ A decentralized rental agreement management app using **Next.js**, **Hardhat**, 
 
 ### 1. Clone the repo
 
-git clone https://github.com/yourusername/landlord-dapp.git
+git clone https://github.com/FaizFadzli/Landlord-DApp.git
 cd landlord-dapp
 
-2. Install dependencies
+### 2. Install dependencies
 npm install
 
-3. Start Ganache
+### 3. Start Ganache
 Make sure Ganache is running locally and MetaMask is connected to the same network.
 
-4. Compile and deploy contracts
+### 4. Compile and deploy contracts
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network ganache
 
-5. Update your contract address in the frontend file: src/lib/contract.ts
+### 5. Update your contract address in the frontend file: src/lib/contract.ts
 
-6. Run the frontend app
+### 6. Run the frontend app
 npm run dev
